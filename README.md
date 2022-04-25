@@ -23,4 +23,12 @@ Adicione o texto dentro da tag de parágrafo, dentro do body:
 ```
 <p>Hello world!</p>
 ````
+Shooow! Já temos algo no ar... viram, não foi tão difícil!
+
+Mas voltando ao nosso objetivo, vamos construir um site do curso Tech for Recruiter, vamos então colocar nossos headers no lugar desse parágrafo
+
+```
+<h1>99Hunters + Le Wagon</h1>
+<h2>Tech for Recruiters</h2>
+```
 
