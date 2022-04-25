@@ -1,7 +1,7 @@
 # tech-for-recruiters
 Códigos e referências para o curso da 99Academy Tech for Recruiters
 
-
+```
 body {
   color: grey;
   font-size: 16px;
@@ -73,5 +73,3 @@ ul{
   list-style-type: none;
 }
 ```
-
-  padding: 30px;
