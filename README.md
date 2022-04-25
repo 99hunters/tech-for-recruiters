@@ -20,5 +20,7 @@ Vamos colocar uma primeira mensagem na tela do navegador!? "Hello world!" é uma
 
 Adicione o texto dentro da tag de parágrafo, dentro do body:
 
-```<p>Hello world!</p>````
+```
+<p>Hello world!</p>
+````
 
