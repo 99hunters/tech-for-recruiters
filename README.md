@@ -131,5 +131,13 @@ Iremos então adicionar agora os ícones sobre os módulos do curso
 <p>A profissão <strong>tech recruiter</strong></p>
 ```
 
-Para organizar melhor o layout, 
+Para organizar melhor o layout, dividir o conteúdo em colunas e ainda torná-lo responsível, vamos adicionar bootstrap.
+https://getbootstrap.com/
+
+Precisamos apenas incluir o link para o arquivo de estílos ```CSS``` do framework também na ```head``` do nosso ```HTML```:
+
+```
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+```
+
 
