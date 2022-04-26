@@ -1,7 +1,7 @@
 # tech-for-recruiters
 
 Vamos abrir um documento novo no Sublime Text
-E inicar com a estrutura básica de uma página HTML.
+E inicar com a estrutura básica de uma página ```HTML.
 
 ```
 <!DOCTYPE html>
@@ -33,4 +33,10 @@ Mas voltando ao nosso objetivo, estamos construindo um site do curso Tech for Re
 ```
 (atenção com a identação do seu código)
 
-Essa página está precisando de um pouco mais de estilo, vamos adicionar um arquivo CSS no repositório.
+Essa página está precisando de um pouco mais de estilo, vamos adicionar um arquivo ```CSS``` no repositório.
+Adicione o dentro do ```head``` de seu ```HTML``` um link para o arquivo ```CSS```
+
+```<link href='style.css' rel='stylesheet'>```
+
+
+
