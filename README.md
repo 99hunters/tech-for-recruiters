@@ -265,3 +265,26 @@ Com o logo branco, em um fundo branco, realmente não vamos conseguir enxergar n
 Vamos usar nosso amigo bootstrap novamente e dividir esse ```footer``` em colunar.
 
 Adicione a ```class="row"``` na ```div``` ```#footer``` e coloque cada ícone dentro de uma ```div``` com a ```class="col"
+
+E para finalizar nosso footer, e o exercício de hoje, vamos colocar uma lista de ícones abaixo de cada logo:
+
+```
+<ul>
+  <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+  <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+  <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+  <li><a href="#"><i class="fab fa-github"></i></a></li>
+</ul>
+```
+
+E adicionar o estílo no ```CSS``` para trocar a cor dos ícones e remover os bullets da lista:
+
+```
+#footer a {
+  color: white;
+  font-size: 18px;
+}
+#footer ul {
+  list-style-type: none;
+}
+```
