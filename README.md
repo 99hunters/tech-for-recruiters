@@ -1,7 +1,6 @@
 # tech-for-recruiters
 
-Vamos abrir um documento novo no Sublime Text
-E inicar com a estrutura básica de uma página ```HTML```.
+Vamos abrir um documento novo no Sublime Text e inicar com a estrutura básica de uma página ```HTML```.
 
 ```
 <!DOCTYPE html>
