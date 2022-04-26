@@ -7,6 +7,9 @@ E inicar com a estrutura básica de uma página ```HTML```.
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tech For Recruiters</title>    
   </head>
 
   <body>
@@ -55,3 +58,16 @@ Precisamos também adicionar no ```head``` do ```HTML``` o link do Google Fonts 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;800&display=swap" rel="stylesheet">
 ```
+
+Vamos trazer uma imagem de fundo e um layout mais bacana para o nosso banner:
+
+```
+#banner {
+  text-align: center;
+  background-image: url("https://images.unsplash.com/photo-1528901166007-3784c7dd3653?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2970&q=80");
+  background-size: cover;
+  background-position: center;
+  padding: 190px;
+}
+```
+
