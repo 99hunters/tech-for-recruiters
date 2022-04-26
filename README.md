@@ -125,4 +125,11 @@ Iremos então adicionar agora os ícones sobre os módulos do curso
 <p><strong>Conhecendo</strong> o curso</p>
 ```
 
+```
+<img src="images/modulo2.png" alt="icone-modulo1" width="100">
+<h4>Módulo 2:</h4>
+<p>A profissão <strong>tech recruiter</strong></p>
+```
+
+Para organizar melhor o layout, 
 
