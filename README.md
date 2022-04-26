@@ -38,5 +38,15 @@ Adicione o dentro do ```head``` de seu ```HTML``` um link para o arquivo ```CSS`
 
 ```<link href='style.css' rel='stylesheet'>```
 
+E no ```CSS``, vamos colocar algum estilo no nosso ```body```:
+
+```
+body {
+  color: grey;
+  font-size: 16px;
+  font-family: Poppins;
+}
+```
+
 
 
