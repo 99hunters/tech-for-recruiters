@@ -95,3 +95,24 @@ h2 {
 }
 ```
 
+Com o nosso banner pronto, passamos para os próximos elementos da nossa página. 
+Vamos adicionar o título da próxima sessão:
+
+``` <h3>Conteúdo:</h3>```
+
+Mas para que ajustar o design desse título, vamos colocá-lo dentro de uma ```div```:
+
+```
+<div id="sub-banner">
+  <h3>Conteúdo:</h3>
+</div>
+```
+
+E adicionar seu estílo no arquivo ```style.css```:
+
+```
+#sub-banner {
+  text-align: center;
+  margin: 50px 0;
+}
+```
