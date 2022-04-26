@@ -117,7 +117,15 @@ E adicionar seu estílo no arquivo ```style.css```:
 }
 ```
 
-Iremos então adicionar agora os ícones sobre os módulos do curso
+Iremos então adicionar os ícones sobre os módulos do curso.
+
+Vamos baixar uma pasta com todas as imagens que utilizaremos nesse projeto:
+
+https://res.cloudinary.com/nineninehunters/raw/upload/v1651003563/images_ozrrn9.zip
+
+E então, depois de descomprimir o arquivo, vamos adicionar essa pasta ```images``` dentro do nosso repositório.
+
+Agora podemos usar todas as imagens dessa pasta em nosso código 💪
 
 ```
 <img src="images/modulo1.png" alt="icone-modulo1" width="100">
