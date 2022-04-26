@@ -56,7 +56,7 @@ Precisamos também adicionar no ```head``` do ```HTML``` o link do Google Fonts 
 ```
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;800&display=swap" rel="stylesheet">
 ```
 
 Vamos trazer uma imagem de fundo e um layout mais bacana para o nosso banner.
@@ -163,4 +163,65 @@ Vamos então adicionar essas classes, para que melhorar o layout dos ícones sob
 </div>
 ```
     
+E claro, adicionar no ```CSS``` o estílo que queremos para esses componentes:
 
+```
+#modules {
+  margin-bottom: 50px;
+}
+.card {
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+  font-weight: lighter;
+  border: none;
+}
+.card img {
+  margin-bottom: 20px;
+}
+```
+
+Agora que o layout está como queremos, vamos copiar os ```cards``` e adicionar as informações de todos os módulos:
+
+```
+<div class="col">
+  <div class='card'>
+    <img src="images/modulo3.png" alt="icone-modulo3" width="100">
+    <h4>Módulo 3:</h4>
+    <p>Explicando o <strong>universo de desenvolvimento</strong></p>
+  </div>
+</div>
+<div class="col">
+  <div class='card'>
+    <img src="images/modulo4.png" alt="icone-modulo4" width="100">
+    <h4>Módulo 4:</h4>
+    <p>Tech <strong>além do desenvolvimento</strong></p>
+  </div>
+</div>
+<div class="col">
+  <div class='card'>
+    <img src="images/modulo5.png" alt="icone-modulo5" width="100">
+    <h4>Módulo 5:</h4>
+    <p><strong>Finalizando</strong> o curso</p>
+  </div>
+</div>
+```
+
+Maravilha, mas uma seção do nosso site já está pronta 🙌
+
+Na próximas seção, vamos colocar um vídeo do youtube de uma aula do Le Wagon, você poderá depois colocar o vídeo do nosso curso de Tech for Recruiters.
+https://www.youtube.com/watch?v=G0RIx2SCzAg
+
+```
+<div id='video-container'>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/G0RIx2SCzAg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+```
+sem esquecer de também colocá-lo dentro de uma ```div```, para que possamos ajustar o layout dessa área do site no ```CSS```:
+
+```
+#video-container {
+  text-align: center;
+  margin-bottom: 80px;
+}
+```
