@@ -118,3 +118,11 @@ E adicionar seu estílo no arquivo ```style.css```:
 ```
 
 Iremos então adicionar agora os ícones sobre os módulos do curso
+
+```
+<img src="images/modulo1.png" alt="icone-modulo1" width="100">
+<h4>Módulo 1:</h4>
+<p><strong>Conhecendo</strong> o curso</p>
+```
+
+
