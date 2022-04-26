@@ -288,3 +288,5 @@ E adicionar o estílo no ```CSS``` para trocar a cor dos ícones e remover os bu
   list-style-type: none;
 }
 ```
+
+Parabéns, seu primeiro site deve estar pronto 👏👏👏
