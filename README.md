@@ -142,5 +142,25 @@ Precisamos apenas incluir o link para o arquivo de estílos ```CSS``` do framewo
 
 Com isso passamos a ter acesso, entre várias outras coisas, as classes ```row``` (cria uma faixa ou linha no layout, a qual poderemos quebrar em diferentes colunas), ```col``` (permite que o layout seja quebrado em colunas responsivas) e ```card``` (um container de conteúdo, flexível e extensível com múltiplos variantes e opções)
 
+Vamos então adicionar essas classes, para que melhorar o layout dos ícones sobre os módulos do curso
 
+```
+<div id="modules" class="row">
+  <div class="col">
+    <div class='card'>
+      <img src="images/modulo1.png" alt="icone-modulo1" width="100">
+      <h4>Módulo 1:</h4>
+      <p><strong>Conhecendo</strong> o curso</p>
+    </div>
+  </div>
+  <div class="col">
+    <div class='card'>
+      <img src="images/modulo2.png" alt="icone-modulo2" width="100">
+      <h4>Módulo 2:</h4>
+      <p>A profissão <strong>tech recruiter</strong></p>
+    </div>
+  </div>
+</div>
+```
+    
 
