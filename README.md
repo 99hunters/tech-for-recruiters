@@ -36,6 +36,7 @@ Mas voltando ao nosso objetivo, estamos construindo um site do curso Tech for Re
 (atenção com a identação do seu código)
 
 Essa página está precisando de um pouco mais de estilo, vamos adicionar um arquivo ```CSS``` no repositório. Para isso, crie um novo arquivo no Sublime Text e salve-o como ```style.css```.
+
 Adicione dentro do ```head``` de seu ```HTML``` um link para o arquivo ```CSS```
 
 ```<link href='style.css' rel='stylesheet'>```
