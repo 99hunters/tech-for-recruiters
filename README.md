@@ -116,3 +116,5 @@ E adicionar seu estílo no arquivo ```style.css```:
   margin: 50px 0;
 }
 ```
+
+Iremos então adicionar agora os ícones sobre os módulos do curso
