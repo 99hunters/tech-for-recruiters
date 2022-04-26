@@ -61,6 +61,15 @@ Precisamos também adicionar no ```head``` do ```HTML``` o link do Google Fonts 
 
 Vamos trazer uma imagem de fundo e um layout mais bacana para o nosso banner.
 
+Primeiro, precisamos colocar o conteúdo que vai nessa área em uma ```div``` com ```id="banner"```
+
+```
+<div id="banner">
+  <h1>99Hunters + Le Wagon</h1>
+  <h2>Tech for Recruiters</h2>
+</div>
+
+ 
 Essa imagem tem tudo a ver com nosso curso:
 https://images.unsplash.com/photo-1528901166007-3784c7dd3653?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2970&q=80
 
