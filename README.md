@@ -233,3 +233,31 @@ sem esquecer de também colocá-lo dentro de uma ```div```, para que possamos aj
   margin-bottom: 80px;
 }
 ```
+
+Por fim, vamos adicionar um ```footer``` e encerrar essa primeira versão do nosso site.
+
+Como incluiremos alguns ícones, vamos chamar uma biblioteca de ícones chamada Font Awesome:
+https://fontawesome.com/
+
+E assim como os outros arquivos de estílo, vamos incluir o link do Font Awesome no ```head```:
+
+```
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+```
+
+Bora criar nosso footer com o logo da 99Hunters então:
+
+```
+<div id="footer">
+  <a href="https://www.99hunters.com/" target="_blank"><img src="images/logo-99hunters.png" alt="picture description" width="120"></a>
+</div>
+```
+
+Com o logo branco, em um fundo branco, realmente não vamos conseguir enxergar nada. Vamos para o ```CSS``` adicionar estilo nesse ```footer```:
+
+```
+#footer {
+  padding: 30px 80px;
+  background: linear-gradient(to right, #ff6700, #fd1015);
+}
+```
