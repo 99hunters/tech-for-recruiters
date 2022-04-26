@@ -82,4 +82,16 @@ https://images.unsplash.com/photo-1528901166007-3784c7dd3653?ixlib=rb-1.2.1&ixid
   padding: 190px;
 }
 ```
+Nossos ```headers``` devem ficar melhores em branco e com uma fonte um pouco maior:
+
+```
+h1 {
+  color: white;
+  font-size: 50px;
+}
+h2 {
+  color: white;
+  font-size: 38px;
+}
+```
 
