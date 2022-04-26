@@ -48,5 +48,5 @@ body {
 }
 ```
 
-
+Precisamos também adicionar no ```head``` do ```HTML``` o link do Google Fonts para a fonte escolhida, Poppins: 
 
