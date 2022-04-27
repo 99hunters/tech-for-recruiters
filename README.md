@@ -1,5 +1,7 @@
 # tech-for-recruiters
 
+## Parte I - Desenvolvimento da V1 da nossa página tech-for-recruiters ##
+
 Vamos abrir um documento novo no Sublime Text e iniciar com a estrutura básica de uma página ```HTML```.
 
 ```
@@ -291,6 +293,11 @@ E adicionar o estílo no ```CSS``` para trocar a cor dos ícones e remover os bu
 
 Parabéns, seu primeiro site deve estar pronto 👏👏👏
 
+## Parte II - Desenvolvimento da API ##
+
+
 Essa foi nossa primeira versão do site, uma página totalmente estática. Mas calma, vamos trazer um pouco mais de dinamismo para esse nosso exercício!
 
 Iremos agora criar um backend online em Javascript (linguagem de programação), com Node (ambiente de desenvolvimento) e Express.js (framework), com o auxilio da plataforma https://glitch.com/.
+
+
