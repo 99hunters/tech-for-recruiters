@@ -1,6 +1,6 @@
 # tech-for-recruiters
 
-## Parte I - Desenvolvimento da V1 da nossa página tech-for-recruiters ##
+### Parte I - Desenvolvimento da V1 da nossa página tech-for-recruiters ###
 
 Vamos abrir um documento novo no Sublime Text e iniciar com a estrutura básica de uma página ```HTML```.
 
