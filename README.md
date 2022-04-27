@@ -353,10 +353,41 @@ function buscarTecnologia(termoBuscado){
     const frameworks = falsoBancoDeDados[linguagem]
     
     if (linguagem == termoBuscado) {
-      o termo buscado é uma linguagem de programação     
+      // o termo buscado é uma linguagem de programação
+      // precisamos retornar os frameworks dessa linguagem
     } else if (frameworks.includes(termoBuscado)) {
-      o termos buscado é um framework      
+      // o termos buscado é um framework
+      // precisamos retornar a linguagem de programação correspondente
     }
   }
 }
 ```
+
+Já sabemos então se o usuário buscou uma linguagem de programação ou um framework. Agora precisamos em cada um dos casos retornar as informações correspondentes.
+
+Vamos então criar, para cada um dos casos, uma função que retorna a informação esperada ao usuário.
+
+Quando o termo buscado foi uma linguagem de programação:
+```
+function retornarFrameworksParaLinguagem(linguagem){
+  const texto = `
+      <p><b>${linguagem}</b> é uma linguagem de programação</p>
+      <p>${falsoBancoDeDados[linguagem].join(', ')} são alguns de seus frameworks</p>
+    `
+  return texto
+}
+```
+
+Quando o termo buscado foi um framework:
+```
+function retornarLinguagemParaFramework(linguagem, termoBuscado){
+  const texto = `
+    <p><b>${termoBuscado}</b> é um framework da linguagem <b>${linguagem}</b></p>
+  `
+  return texto
+}
+```
+
+Agora, vamos chama essas funções dentro da função ```buscarTecnologia```, assim já teremos para cada um dos casos o texto formatado com a resposta correta para o usuário.
+
+
