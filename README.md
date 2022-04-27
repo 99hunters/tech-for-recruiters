@@ -295,7 +295,7 @@ Parabéns, seu primeiro site deve estar pronto 👏👏👏
 
 Essa foi nossa primeira versão do site, uma página totalmente estática. Mas calma, vamos trazer um pouco mais de dinamismo para esse nosso exercício na próxima parte!
 
-### Parte II - Desenvolvimento da API ###
+### Parte II - Desenvolvimento do Backend e API ###
 
 Iremos agora criar um backend online em Javascript (linguagem de programação), usando Node (ambiente de desenvolvimento) e Express.js (framework), através da plataforma https://glitch.com/.
 
