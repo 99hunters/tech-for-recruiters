@@ -152,7 +152,7 @@ Precisamos apenas incluir o link para o arquivo de estílos ```CSS``` do framewo
 
 Com isso passamos a ter acesso, entre várias outras coisas, as classes ```row``` (cria uma faixa ou linha no layout, a qual poderemos quebrar em diferentes colunas), ```col``` (permite que o layout seja quebrado em colunas responsivas) e ```card``` (um container de conteúdo, flexível e extensível com múltiplos variantes e opções)
 
-Vamos então adicionar essas classes, para que melhorar o layout dos ícones sobre os módulos do curso
+Vamos então adicionar essas classes, para melhorar o layout dos ícones sobre os módulos do curso
 
 ```
 <div id="modules" class="row">
@@ -217,7 +217,7 @@ Agora que o layout está como queremos, vamos copiar os ```cards``` e adicionar 
 </div>
 ```
 
-Maravilha, mas uma seção do nosso site já está pronta 🙌
+Maravilha, mais uma seção do nosso site já está pronta 🙌
 
 Na próximas seção, vamos colocar um vídeo do youtube de uma aula do Le Wagon, você poderá depois colocar o vídeo do nosso curso de Tech for Recruiters.
 https://www.youtube.com/watch?v=G0RIx2SCzAg
@@ -299,4 +299,25 @@ Essa foi nossa primeira versão do site, uma página totalmente estática. Mas c
 
 Iremos agora criar um backend online em Javascript (linguagem de programação), usando Node (ambiente de desenvolvimento) e Express.js (framework), através da plataforma https://glitch.com/.
 
+Já temos pronto um boilerplate (um esqueleto padrão pronto de onde partiremos para construir nossa aplicação) que usaremos para construir nosso backend, que vai conversar via API com o site que desenvolvemos na parte anterior.
 
+Vamos adicionar o nosso "banco de dados". No caso será um documento no formato ```JSON```, com várias linguagens de programação e alguns dos seus respectivos frameworks.
+
+Vamos associar esse ```JSON``` a uma constante chamada falsoBancoDeDados:
+
+```
+const falsoBancoDeDados = {
+  'Javascript':['React', 'React Native', 'JQuery', 'Vue.js', 'AngularJS', 'Ember.js', 'Express.js', 'Next.js'],
+  'Python':['Django', 'AIOHTTP', 'Bottle', 'CherryPy', 'CubicWeb', 'Dash', 'Falcon', 'Flask'],
+  'Java':['Spring', 'Hibernate', 'JSF (JavaServer Faces)', 'GWT (Google Web Toolkit)', 'Struts', 'Blade', 'Play', 'Vaadin', 'Grails', 'DropWizard'],
+  'C#':['.NET', 'ASP.NET', 'NHibernate'],
+  'C++':['Qt', 'ffead-cpp', 'Kigs framework', 'ROOT', 'Ultimate++'],
+  'C':['Kore', 'facil.io', 'Duda'],
+  'Go':['Gin', 'Beego', 'Iris', 'Echo', 'Fiber'],
+  'Dart':['Flutter'],
+  'Kotlin':['Ktor', 'Kweb', 'Javalin', 'Spark', 'Spring Boot', 'Vaadin-On-Kotlin', 'Jooby'],
+  'PHP':['CakePHP', 'CodeIgniter', 'Horde', 'Laravel', 'Symfony', 'Yii', 'Zend', 'Zikula', 'Fuel', 'Slim', 'Phalcon', 'Aura'],
+  'Ruby':['Ruby on Rails', 'Sinatra', 'Hanami or Lotus', 'Ramaze', 'Cuba', 'Padrino'],
+  'Rust':['actix-web', 'Warp', 'Axum']
+}
+```
