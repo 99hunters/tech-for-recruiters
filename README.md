@@ -307,7 +307,13 @@ E clicar em remix, para que possamo criar uma cópia desse servidor, na qual tra
 
 ![image](https://user-images.githubusercontent.com/26194801/165558323-3a12afcb-df6a-4835-905b-4f0ac8995962.png)
 
-Vamos adicionar o nosso "banco de dados". No caso será um documento no formato ```JSON```, com várias linguagens de programação e alguns dos seus respectivos frameworks.
+Pronto, agora você tem uma versão sua dessa aplicação. Recomendo inclusive que clique em 'Settings' e depois em 'Edit project details', para mudar o nome do seu projeto. 
+
+O meu, vou renomear para ```99academy-backend```!
+
+O objetivo dessa aplicação backend é retornar uma liguagem de programação ou uma lista de frameworks, ao receber uma requisição com o nome de uma linguagem de programação ou framework.
+
+Vamos então começar adicionando o nosso "banco de dados". No caso será um documento no formato ```JSON```, com várias linguagens de programação e alguns dos seus respectivos frameworks.
 
 Vamos atribuir esse ```JSON``` a uma constante chamada falsoBancoDeDados:
 
