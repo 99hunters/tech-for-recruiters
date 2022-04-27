@@ -390,4 +390,19 @@ function retornarLinguagemParaFramework(linguagem, termoBuscado){
 
 Agora, vamos chama essas funções dentro da função ```buscarTecnologia```, assim já teremos para cada um dos casos o texto formatado com a resposta correta para o usuário.
 
+Podemos determinar, no início da função, uma varíavel resultado, com o valor "termo não encontrado" que será retornada caso a gente não caia em nenhuma das condições da função. No entento, caso entre nos condicionais do ```IF``` ou ```ELSE IF ```, o valor dessa variável será atualizado com o resultado das funções retornadas em cada um dos casos.
 
+Depois disso, podemos então atualizar nosso método da API para que chame a função ```buscarTecnologia``` e envie uma reposta com as informações retornadas pela função.
+
+```
+app.get("/languages", (request, response) => {
+  const termoBuscado = request.query.tecnologia
+  const resposta = buscarTecnologia(termoBuscado)
+  response.json({'resposta': resposta});
+});
+```
+Com isso, nosso backend e sua API estão prontos!!! 🎉
+
+Vamos voltar ao nosso frontend e criar uma chamada para essa API.
+
+### Parte III - Chamando a API a partir da nossa página tech-for-recruiters ###
