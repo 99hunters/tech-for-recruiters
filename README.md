@@ -309,7 +309,7 @@ E clicar em remix, para que possamo criar uma cópia desse servidor, na qual tra
 
 Pronto, agora você tem uma versão sua dessa aplicação. Recomendo inclusive que clique em 'Settings' e depois em 'Edit project details', para mudar o nome do seu projeto. 
 
-O meu, vou renomear para ```99academy-backend```!
+Vou renomear o meu para ```99academy-backend```!
 
 O objetivo dessa aplicação backend é retornar uma liguagem de programação ou uma lista de frameworks, ao receber uma requisição com o nome de uma linguagem de programação ou framework.
 
@@ -333,3 +333,15 @@ const falsoBancoDeDados = {
   'Rust':['actix-web', 'Warp', 'Axum']
 }
 ```
+
+Temos já, a partir do nosso boilerplate, um ```endpoint``` para uma chamada ```GET``` na rota raiz da aplicação.
+
+Vamos então preparar esse método para que receba um requisição com um valor para tecnologia, como parâmetro em uma query.
+
+Podemos atribuir então o valor desse parâmetro tecnolgia a constante ```termoBuscado```:
+
+```
+const termoBuscado = request.query.tecnologia
+```
+
+Agora que já temos o termo que será buscado em nossa ```API```, vamos criar uma função responsável por buscar essa tecnologia em nosso banco de dados:
