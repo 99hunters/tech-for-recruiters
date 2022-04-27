@@ -406,3 +406,41 @@ Com isso, nosso backend e sua API estão prontos!!! 🎉
 Vamos voltar ao nosso frontend e criar uma chamada para essa API.
 
 ### Parte III - Chamando a API a partir da nossa página tech-for-recruiters ###
+
+Vamos precisar inicialmente adicionar um formulário para que o usuário possa inserir um termo que será buscado:
+
+```
+    <div id='search-container'>
+      <p>Buscar tecnologia</p>
+      <form id='techs-form'>
+        <input id='techs-input' type="text" size="60" maxlength="256" placeholder="Linguagem de programação ou framework">
+        <input type="submit" name="search_button" value="Buscar">
+      </form>
+
+      <div id="techs">
+        <!-- div vazia que irá receber, via AJAX, a resposta de nossa requisição na API -->
+      </div>      
+    </div>
+```
+
+E depois adicionar um ```script``` com um bloco de código Javascript que será responsável por pegar o i. pegar o termo buscado; ii. fazer a requisição na API com esse termo como parâmetro, iii. inserir via AJAX o conteúdo retornado pela API da ```div``` com ```id``` techs:
+
+```
+<script>
+  $('#techs-form').submit(function(event){
+    const searchTerm = event.target.firstElementChild.value;
+
+    $.ajax({
+      url: `https://shocking-cooked-metatarsal.glitch.me?tecnologia=${searchTerm}`
+    }).done(function(data) {
+      $('#techs').html(data['resposta']);
+    });
+
+    event.preventDefault();
+  });
+</script>
+```
+
+Agora nossa API tem tudo para rodar, vamos testar?
+
+
