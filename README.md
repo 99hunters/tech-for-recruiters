@@ -299,11 +299,17 @@ Essa foi nossa primeira versão do site, uma página totalmente estática. Mas c
 
 Iremos agora criar um backend online em Javascript (linguagem de programação), usando Node (ambiente de desenvolvimento) e Express.js (framework), através da plataforma https://glitch.com/.
 
-Já temos pronto um boilerplate (um esqueleto padrão pronto de onde partiremos para construir nossa aplicação) que usaremos para construir nosso backend, que vai conversar via API com o site que desenvolvemos na parte anterior.
+Já temos pronto um boilerplate (um esqueleto padrão pronto de onde partiremos para construir nossa aplicação) que usaremos para construir nosso backend. Este vai conversar via API com o site que desenvolvemos na parte anterior.
+
+Vamos então acessar esse boilerplate https://glitch.com/edit/#!/99academy-boilerplate
+
+E clicar em remix, para que possamo criar uma cópia desse servidor, na qual trabalharemos.
+
+![image](https://user-images.githubusercontent.com/26194801/165558323-3a12afcb-df6a-4835-905b-4f0ac8995962.png)
 
 Vamos adicionar o nosso "banco de dados". No caso será um documento no formato ```JSON```, com várias linguagens de programação e alguns dos seus respectivos frameworks.
 
-Vamos associar esse ```JSON``` a uma constante chamada falsoBancoDeDados:
+Vamos atribuir esse ```JSON``` a uma constante chamada falsoBancoDeDados:
 
 ```
 const falsoBancoDeDados = {
