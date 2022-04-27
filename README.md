@@ -1,6 +1,6 @@
 # tech-for-recruiters
 
-### Parte I - Desenvolvimento da V1 da nossa página tech-for-recruiters ###
+### Parte I - Desenvolvimento da versão 1 da nossa página tech-for-recruiters ###
 
 Vamos abrir um documento novo no Sublime Text e iniciar com a estrutura básica de uma página ```HTML```.
 
@@ -344,4 +344,19 @@ Podemos atribuir então o valor desse parâmetro tecnolgia a constante ```termoB
 const termoBuscado = request.query.tecnologia
 ```
 
-Agora que já temos o termo que será buscado em nossa ```API```, vamos criar uma função responsável por buscar essa tecnologia em nosso banco de dados:
+Agora que já temos o termo que será buscado em nossa ```API```, vamos começar a criar uma função responsável por buscar essa tecnologia em nosso banco de dados:
+
+```
+function buscarTecnologia(termoBuscado){
+    
+  for (const linguagem in falsoBancoDeDados){
+    const frameworks = falsoBancoDeDados[linguagem]
+    
+    if (linguagem == termoBuscado) {
+      o termo buscado é uma linguagem de programação     
+    } else if (frameworks.includes(termoBuscado)) {
+      o termos buscado é um framework      
+    }
+  }
+}
+```
