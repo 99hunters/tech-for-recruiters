@@ -444,3 +444,35 @@ E depois adicionar um ```script``` com um bloco de código Javascript que será 
 Agora nossa API tem tudo para rodar, vamos testar?
 
 
+### Parte IV - Melhoria da API ###
+
+Parece que tudo está funcionando bem, enquanto o usuário faz as buscas utilizando as maiúscula ou minúscula sempre igual ao nosso "banco de dados".
+
+Mas isso é algo que podemos corrigir facilmente, convertendo os textos que estamos comparando dentro da função ```buscarTecnologia``` para minúsculo.
+
+Com essa melhoria, nossa versão final dessa função fica assim:
+
+```
+function buscarTecnologia(termoBuscado){
+  
+  const termoBuscadoMinusculo = termoBuscado.toLowerCase()
+  var resultado = 'não encontrado'
+  
+  for (const linguagem in falsoBancoDeDados){
+    const linguagemMinuscula = linguagem.toLowerCase() 
+    const frameworksMinusculos = falsoBancoDeDados[linguagem].map(framework => {return framework.toLowerCase()})
+    
+    if (linguagemMinuscula == termoBuscadoMinusculo) {
+        resultado = retornarFrameworksParaLinguagem(linguagem)
+     
+    } else if (frameworksMinusculos.includes(termoBuscadoMinusculo)) {
+      resultado = retornarLinguagemParaFramework(linguagem, termoBuscado)      
+    }
+  }
+  return resultado
+}
+```
+
+Pronto, agora nossa aplicação funciona também para buscas com formato diferente de fontes.
+
+Fique a vontade para continuar explorando o universo do desenvolvimento, as linguagens HTML, CSS e Javascript para trazer ainda mais melhorias para esse exemplo de aplicação!
