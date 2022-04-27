@@ -431,7 +431,7 @@ E depois adicionar um ```script``` com um bloco de código Javascript que será 
     const searchTerm = event.target.firstElementChild.value;
 
     $.ajax({
-      url: `https://shocking-cooked-metatarsal.glitch.me?tecnologia=${searchTerm}`
+      url: `https://nome-do-seu-app.glitch.me?tecnologia=${searchTerm}`
     }).done(function(data) {
       $('#techs').html(data['resposta']);
     });
